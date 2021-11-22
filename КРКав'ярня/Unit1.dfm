@@ -1,0 +1,574 @@
+object Form1: TForm1
+  Left = 271
+  Top = 194
+  Width = 1049
+  Height = 547
+  Caption = #1044#1086#1074#1110#1076#1085#1080#1082
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object PageControl1: TPageControl
+    Left = 0
+    Top = 0
+    Width = 1033
+    Height = 508
+    ActivePage = TabSheet4
+    Align = alClient
+    TabOrder = 0
+    object TabSheet1: TTabSheet
+      Caption = #1052#1077#1085#1102
+      object DBGrid1: TDBGrid
+        Left = 0
+        Top = 0
+        Width = 1025
+        Height = 334
+        Align = alClient
+        Color = clWhite
+        DataSource = DataModule1.DataSMenu
+        TabOrder = 0
+        TitleFont.Charset = DEFAULT_CHARSET
+        TitleFont.Color = clWindowText
+        TitleFont.Height = -11
+        TitleFont.Name = 'MS Sans Serif'
+        TitleFont.Style = []
+      end
+      object Panel1: TPanel
+        Left = 0
+        Top = 334
+        Width = 1025
+        Height = 71
+        Align = alBottom
+        Color = clInactiveBorder
+        TabOrder = 1
+        object Label7: TLabel
+          Left = 456
+          Top = 12
+          Width = 144
+          Height = 13
+          Caption = #1055#1086#1080#1089#1082' '#1090#1086#1074#1072#1088#1072' '#1087#1086' '#1085#1072#1079#1074#1072#1085#1080#1102': '
+        end
+        object Label1: TLabel
+          Left = 456
+          Top = 36
+          Width = 102
+          Height = 13
+          Caption = #1055#1086#1080#1089#1082' '#1082#1086#1076#1091' '#1090#1086#1074#1072#1088#1072': '
+        end
+        object Button2: TButton
+          Left = 167
+          Top = 8
+          Width = 75
+          Height = 25
+          Caption = #1042#1080#1076#1072#1083#1080#1090#1080
+          TabOrder = 0
+          OnClick = Button2Click
+        end
+        object Edit5: TEdit
+          Left = 610
+          Top = 8
+          Width = 223
+          Height = 21
+          TabOrder = 1
+          OnChange = Edit5Change
+        end
+        object Button16: TButton
+          Left = 246
+          Top = 8
+          Width = 75
+          Height = 25
+          Caption = #1047#1074#1110#1090
+          TabOrder = 2
+          OnClick = Button16Click
+        end
+        object Button18: TButton
+          Left = 8
+          Top = 8
+          Width = 75
+          Height = 25
+          Caption = #1044#1086#1076#1072#1090#1080
+          TabOrder = 3
+          OnClick = Button18Click
+        end
+        object Button19: TButton
+          Left = 88
+          Top = 8
+          Width = 75
+          Height = 25
+          Caption = #1047#1084#1110#1085#1080#1090#1080
+          TabOrder = 4
+          OnClick = Button19Click
+        end
+        object Edit2: TEdit
+          Left = 610
+          Top = 32
+          Width = 63
+          Height = 21
+          TabOrder = 5
+        end
+        object Button10: TButton
+          Left = 680
+          Top = 32
+          Width = 75
+          Height = 25
+          Caption = #1054#1082
+          TabOrder = 6
+          OnClick = Button10Click
+        end
+        object Button11: TButton
+          Left = 760
+          Top = 32
+          Width = 75
+          Height = 25
+          Caption = #1042#1110#1076#1084#1110#1085#1072
+          TabOrder = 7
+          OnClick = Button11Click
+        end
+      end
+      object Panel2: TPanel
+        Left = 0
+        Top = 405
+        Width = 1025
+        Height = 75
+        Align = alBottom
+        Color = clInactiveBorder
+        TabOrder = 2
+        Visible = False
+        object Label2: TLabel
+          Left = 8
+          Top = 12
+          Width = 32
+          Height = 13
+          Caption = #1053#1072#1079#1074#1072
+        end
+        object Label3: TLabel
+          Left = 10
+          Top = 35
+          Width = 49
+          Height = 13
+          Caption = #1050#1072#1090#1077#1075#1086#1088#1110#1103
+        end
+        object Label4: TLabel
+          Left = 262
+          Top = 11
+          Width = 26
+          Height = 13
+          Caption = #1042#1080#1093#1110#1076
+        end
+        object Label5: TLabel
+          Left = 263
+          Top = 35
+          Width = 22
+          Height = 13
+          Caption = #1062#1110#1085#1072
+        end
+        object Edit1: TEdit
+          Left = 88
+          Top = 8
+          Width = 145
+          Height = 21
+          TabOrder = 0
+        end
+        object Edit3: TEdit
+          Left = 360
+          Top = 32
+          Width = 145
+          Height = 21
+          TabOrder = 1
+          Text = '0'
+        end
+        object Edit4: TEdit
+          Left = 360
+          Top = 8
+          Width = 145
+          Height = 21
+          TabOrder = 2
+          Text = '0'
+        end
+        object Button4: TButton
+          Left = 528
+          Top = 36
+          Width = 105
+          Height = 25
+          Caption = #1047#1084#1110#1085#1080#1090#1080' '#1079#1072#1087#1080#1089
+          TabOrder = 3
+          OnClick = Button4Click
+        end
+        object Button6: TButton
+          Left = 648
+          Top = 25
+          Width = 105
+          Height = 25
+          Caption = #1042#1110#1076#1084#1110#1085#1072
+          TabOrder = 4
+          OnClick = Button6Click
+        end
+        object DBLookupComboBox1: TDBLookupComboBox
+          Left = 88
+          Top = 32
+          Width = 145
+          Height = 21
+          KeyField = #1050#1086#1076'_'#1082#1072#1090
+          ListField = #1053#1072#1079#1074#1072
+          ListSource = DataModule1.DataSKat
+          TabOrder = 5
+        end
+        object Button1: TButton
+          Left = 528
+          Top = 8
+          Width = 105
+          Height = 25
+          Caption = #1044#1086#1076#1072#1090#1080' '#1079#1072#1087#1080#1089
+          TabOrder = 6
+          OnClick = Button1Click
+        end
+      end
+    end
+    object TabSheet3: TTabSheet
+      Caption = #1055#1077#1088#1089#1086#1085#1072#1083
+      ImageIndex = 2
+      object DBGrid3: TDBGrid
+        Left = 0
+        Top = 0
+        Width = 1025
+        Height = 411
+        Align = alClient
+        DataSource = DataModule1.DataSPers
+        TabOrder = 0
+        TitleFont.Charset = DEFAULT_CHARSET
+        TitleFont.Color = clWindowText
+        TitleFont.Height = -11
+        TitleFont.Name = 'MS Sans Serif'
+        TitleFont.Style = []
+      end
+      object Panel4: TPanel
+        Left = 0
+        Top = 411
+        Width = 1025
+        Height = 69
+        Align = alBottom
+        Color = clInactiveBorder
+        TabOrder = 1
+        object Button7: TButton
+          Left = 168
+          Top = 8
+          Width = 75
+          Height = 25
+          Caption = #1042#1080#1076#1072#1083#1080#1090#1080
+          TabOrder = 0
+          OnClick = Button7Click
+        end
+        object Button8: TButton
+          Left = 8
+          Top = 8
+          Width = 75
+          Height = 25
+          Caption = #1044#1086#1076#1072#1090#1080
+          TabOrder = 1
+          OnClick = Button8Click
+        end
+        object Button9: TButton
+          Left = 88
+          Top = 8
+          Width = 75
+          Height = 25
+          Caption = #1047#1084#1110#1085#1080#1090#1080
+          TabOrder = 2
+          OnClick = Button9Click
+        end
+      end
+    end
+    object TabSheet4: TTabSheet
+      Caption = #1050#1072#1090#1077#1075#1086#1088#1110#1111
+      ImageIndex = 3
+      object DBGrid5: TDBGrid
+        Left = 0
+        Top = 0
+        Width = 1025
+        Height = 411
+        Align = alClient
+        DataSource = DataModule1.DataSKat
+        TabOrder = 0
+        TitleFont.Charset = DEFAULT_CHARSET
+        TitleFont.Color = clWindowText
+        TitleFont.Height = -11
+        TitleFont.Name = 'MS Sans Serif'
+        TitleFont.Style = []
+      end
+      object Panel3: TPanel
+        Left = 0
+        Top = 411
+        Width = 1025
+        Height = 69
+        Align = alBottom
+        Color = clInactiveBorder
+        TabOrder = 1
+        object BitBtn1: TBitBtn
+          Left = 8
+          Top = 8
+          Width = 81
+          Height = 25
+          Caption = #1044#1086#1076#1072#1090#1080
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -11
+          Font.Name = 'MS Sans Serif'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 0
+          OnClick = BitBtn1Click
+        end
+        object BitBtn2: TBitBtn
+          Left = 96
+          Top = 8
+          Width = 81
+          Height = 25
+          Caption = #1047#1084#1110#1085#1080#1090#1080
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -11
+          Font.Name = 'MS Sans Serif'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 1
+          OnClick = BitBtn2Click
+        end
+        object BitBtn3: TBitBtn
+          Left = 184
+          Top = 8
+          Width = 81
+          Height = 25
+          Caption = #1042#1080#1076#1072#1083#1080#1090#1080
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -11
+          Font.Name = 'MS Sans Serif'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 2
+          OnClick = BitBtn3Click
+        end
+      end
+    end
+    object TabSheet2: TTabSheet
+      Caption = #1047#1072#1084#1086#1074#1083#1077#1085#1085#1103
+      ImageIndex = 3
+      object DBGrid2: TDBGrid
+        Left = 0
+        Top = 0
+        Width = 1025
+        Height = 393
+        Align = alClient
+        DataSource = DataModule1.DataSWork
+        TabOrder = 0
+        TitleFont.Charset = DEFAULT_CHARSET
+        TitleFont.Color = clWindowText
+        TitleFont.Height = -11
+        TitleFont.Name = 'MS Sans Serif'
+        TitleFont.Style = []
+      end
+      object Panel5: TPanel
+        Left = 0
+        Top = 393
+        Width = 1025
+        Height = 87
+        Align = alBottom
+        Color = clInactiveBorder
+        TabOrder = 1
+        object Label6: TLabel
+          Left = 16
+          Top = 24
+          Width = 124
+          Height = 13
+          Caption = #1055#1086#1096#1091#1082' '#1082#1086#1076#1091' '#1079#1072#1084#1086#1074#1083#1077#1085#1085#1103
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -11
+          Font.Name = 'MS Sans Serif'
+          Font.Style = []
+          ParentFont = False
+        end
+        object Label8: TLabel
+          Left = 368
+          Top = 24
+          Width = 108
+          Height = 13
+          Caption = #1055#1086#1096#1091#1082' '#1079#1072' '#1082#1086#1076#1086#1084' '#1095#1077#1082#1091
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -11
+          Font.Name = 'MS Sans Serif'
+          Font.Style = []
+          ParentFont = False
+        end
+        object Button3: TButton
+          Left = 152
+          Top = 48
+          Width = 121
+          Height = 25
+          Caption = #1054#1082
+          TabOrder = 0
+          OnClick = Button3Click
+        end
+        object Button5: TButton
+          Left = 488
+          Top = 48
+          Width = 129
+          Height = 25
+          Caption = #1054#1082
+          TabOrder = 1
+          OnClick = Button5Click
+        end
+        object Button14: TButton
+          Left = 688
+          Top = 32
+          Width = 81
+          Height = 25
+          Caption = #1042#1110#1076#1084#1110#1085#1072
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -11
+          Font.Name = 'MS Sans Serif'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 2
+          OnClick = Button14Click
+        end
+        object Edit6: TEdit
+          Left = 152
+          Top = 24
+          Width = 121
+          Height = 21
+          TabOrder = 3
+          Text = '0'
+        end
+        object Edit7: TEdit
+          Left = 488
+          Top = 24
+          Width = 129
+          Height = 21
+          TabOrder = 4
+          Text = '0'
+        end
+        object Button12: TButton
+          Left = 944
+          Top = 56
+          Width = 75
+          Height = 25
+          Caption = #1047#1074#1110#1090
+          TabOrder = 5
+          OnClick = Button12Click
+        end
+      end
+    end
+    object TabSheet5: TTabSheet
+      Caption = #1063#1077#1082
+      ImageIndex = 4
+      object DBGrid4: TDBGrid
+        Left = 0
+        Top = 0
+        Width = 1025
+        Height = 393
+        Align = alClient
+        DataSource = DataModule1.DataSCheck
+        TabOrder = 0
+        TitleFont.Charset = DEFAULT_CHARSET
+        TitleFont.Color = clWindowText
+        TitleFont.Height = -11
+        TitleFont.Name = 'MS Sans Serif'
+        TitleFont.Style = []
+      end
+      object Panel6: TPanel
+        Left = 0
+        Top = 393
+        Width = 1025
+        Height = 87
+        Align = alBottom
+        Color = clInactiveBorder
+        TabOrder = 1
+        object Label9: TLabel
+          Left = 16
+          Top = 24
+          Width = 79
+          Height = 13
+          Caption = #1055#1086#1096#1091#1082' '#1082#1086#1076' '#1095#1077#1082#1091
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -11
+          Font.Name = 'MS Sans Serif'
+          Font.Style = []
+          ParentFont = False
+        end
+        object Label10: TLabel
+          Left = 352
+          Top = 24
+          Width = 82
+          Height = 13
+          Caption = #1055#1086#1096#1091#1082' '#1079#1072' '#1076#1072#1090#1086#1102
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -11
+          Font.Name = 'MS Sans Serif'
+          Font.Style = []
+          ParentFont = False
+        end
+        object Edit8: TEdit
+          Left = 104
+          Top = 24
+          Width = 121
+          Height = 21
+          TabOrder = 0
+          Text = '0'
+        end
+        object Button13: TButton
+          Left = 104
+          Top = 48
+          Width = 121
+          Height = 25
+          Caption = #1054#1082
+          TabOrder = 1
+          OnClick = Button13Click
+        end
+        object Button15: TButton
+          Left = 688
+          Top = 32
+          Width = 81
+          Height = 25
+          Caption = #1042#1110#1076#1084#1110#1085#1072
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -11
+          Font.Name = 'MS Sans Serif'
+          Font.Style = []
+          ParentFont = False
+          TabOrder = 2
+          OnClick = Button15Click
+        end
+        object DateTimePicker1: TDateTimePicker
+          Left = 456
+          Top = 24
+          Width = 129
+          Height = 21
+          Date = 44501.080054884260000000
+          Time = 44501.080054884260000000
+          TabOrder = 3
+        end
+        object Button17: TButton
+          Left = 456
+          Top = 48
+          Width = 129
+          Height = 25
+          Caption = #1054#1082
+          TabOrder = 4
+          OnClick = Button17Click
+        end
+      end
+    end
+  end
+end

@@ -1,0 +1,35 @@
+object Form5: TForm5
+  Left = 530
+  Top = 157
+  Width = 250
+  Height = 345
+  Caption = #1040#1074#1090#1086#1088#1080#1079#1072#1094#1110#1103
+  Color = clInactiveBorder
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object DBLookupListBox1: TDBLookupListBox
+    Left = 48
+    Top = 16
+    Width = 145
+    Height = 225
+    KeyField = #1050#1086#1076'_'#1088#1086#1073#1086#1090
+    ListField = #1055#1030#1041
+    ListSource = DataModule1.DataSPers
+    TabOrder = 0
+  end
+  object Button1: TButton
+    Left = 48
+    Top = 264
+    Width = 153
+    Height = 25
+    Caption = #1040#1074#1090#1086#1088#1080#1079#1072#1094#1110#1103
+    TabOrder = 1
+    OnClick = Button1Click
+  end
+end
